@@ -1,6 +1,7 @@
 // pages/Home.js
 
 import React from "react";
+import Social from "./components/Social.js";
 
 const Home = () => (
   <div>
@@ -8,6 +9,7 @@ const Home = () => (
     <p>
       Welcome and enjoy :) Zzzzz
     </p>
+    <Social url={false} />
   </div>
 );
 
